@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sketches",
+  "info": {
+    "singularName": "sketch",
+    "pluralName": "sketches",
+    "displayName": "sketches",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

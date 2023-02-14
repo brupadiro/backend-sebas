@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "storyboards",
+  "info": {
+    "singularName": "storyboard",
+    "pluralName": "storyboards",
+    "displayName": "Storyboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Full",
+        "Raff"
+      ]
+    }
+  }
+}

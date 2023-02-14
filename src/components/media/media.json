@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_media_media",
+  "info": {
+    "displayName": "media",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
