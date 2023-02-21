@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "sketches",
+  "collectionName": "publicities",
   "info": {
-    "singularName": "sketch",
-    "pluralName": "sketches",
-    "displayName": "Bocetos",
+    "singularName": "publicity",
+    "pluralName": "publicities",
+    "displayName": "Publicidad",
     "description": ""
   },
   "options": {
@@ -23,13 +23,21 @@
         "audios"
       ]
     },
-    "title": {
-      "type": "string"
-    },
     "images": {
       "type": "component",
       "repeatable": true,
       "component": "media.media"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "storyboard_full",
+        "storyboard_raff",
+        "conceptual_art"
+      ]
     }
   }
 }

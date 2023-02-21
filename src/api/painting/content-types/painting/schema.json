@@ -8,13 +8,13 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "media": {
+    "portrait": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -25,6 +25,18 @@
     },
     "title": {
       "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.media"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Anatomies",
+        "Bestiary"
+      ]
     }
   }
 }
