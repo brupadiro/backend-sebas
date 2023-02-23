@@ -12,19 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "media": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.media"
+    },
+    "portrait": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "title": {
-      "type": "string"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
